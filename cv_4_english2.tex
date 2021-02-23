@@ -7,9 +7,12 @@
 \usepackage[left=15.5mm, textheight = 290mm, top=10mm,  bottom=10mm, right=15.5mm]{geometry} % Document margins
 \usepackage[brazilian]{babel}
 \usepackage[utf8]{inputenc}
+\usepackage{hyperref} 
+\usepackage{lmodern,textcomp}
+
 
 \name{Lucas Coelho Figueiredo} % Your name
-\address{28 years old \\ lucascoelhof@gmail.com \\ https://github.com/lucascoelhof \\ http://lucascoelho.net}  % Your phone number and email
+\address{29 years old \\ lucascoelhof@gmail.com \\ https://github.com/lucascoelhof \\ \texttt{+}55 31 98504-5896}  % Your phone number and email
 
 \begin{document}
 
@@ -26,11 +29,14 @@
 \begin{rSection}{Education}
 
 {\bf Federal University of Minas Gerais}  \hfill{08/2015 - 06/2018} \\ 
-Masters in Electrical Engineering, emphasis in Control and Robotics \hfill{Belo Horizonte, Brazil} \\
+MSc in Electrical Engineering, emphasis in Control and Robotics \hfill{Belo Horizonte, Brazil} \\
 Thesis: Human-robot swarm interaction on multi-robot coverage control with Virtual Reality 
 
+{\bf Udacity}  \hfill{01/2019 - 06/2019} \\ 
+Self-driving car Engineer Nanodegree, Term 1 
+
 {\bf Rockstart Accelerator}  \hfill{08/2016 - 08/2016} \\ 
-Startup Acceleration Program \textit{Rockstart Smart Energy} \hfill{Amsterdam, The Netherlands}
+Startup Acceleration Program, intensive course on entrepreneurship \hfill{Amsterdam, The Netherlands} 
 
 {\bf Federal University of Minas Gerais}  \hfill{03/2010 - 07/2015} \\ 
 Bachelor in Control and Automation Engineering \hfill{Belo Horizonte, Brazil}
@@ -51,52 +57,58 @@ High School and Technical Program in Electronics \hfill{Belo Horizonte, Brazil}
 \begin{rSection}{Experience}
 
 
-\begin{rSubsection}{Hexagon Mining}{11/2017 - Today}{\normalfont Software Specialist in Autonomous Vehicles \& Scrum Master}{ \normalfont Belo Horizonte, Brazil}
- 	\item Responsible for the ROS framework and architecture on the embedded platform
- 	\item Designed and participated in the development of solutions for autonomous trucks for the mining industry, including a high precision GPS-based parking assist and a mission manager for autonomous trucks
- 	\item Implemented highly reliable peer-to-peer communication using DDS (RTI and OpenSplice)
- 	\item Managed an integration with a Collision Avoidance System to improve the interaction of autonomous vehicles with manned vehicles and pedestrians
- 	\item Improved previous path planner for parking assist with an RRT* inspired algorithm
- 	\item Main Python developer of the team
+\begin{rSubsection}{Hexagon Mining}{11/2017 - Today}{\normalfont Software Specialist in Autonomous Vehicles}{ \normalfont Belo Horizonte, Brazil}
+	\item Worked on R\&D projects in the context of autonomous vehicles for mining
+ 	\item Responsible for the ROS framework and architecture on the onboard Linux platform in C++, maintainer of Docker images for testing and production environments, main Python developer
+ 	\item Collaborated with teams across the world on 5 different projects, including a high precision GPS-based parking assist, a mission manager for autonomous trucks and an integration of an obstacle avoidance system to autonomous vehicles 
+ 	\item Implemented highly reliable machine-to-machine communication using DDS (RTI and OpenSplice)
+ 	\item Developed mapping and obstacle avoidance solutions using cutting edge radar technology fused with GPS and IMU from NovAtel
+ 	\item Coordinated deployment of autonomous vehicle management software in three sites across the world
 \end{rSubsection}
 
-\begin{rSubsection}{Newatt Energy Systems}{09/2015 - 08/2017}{\normalfont Co-Founder and CTO}{ \normalfont Belo Horizonte, Brazil and Amsterdam, The Netherlands}
+\begin{rSubsection}{Newatt Energy Systems}{09/2015 - 08/2017}{\normalfont Co-Founder and CTO}{ \normalfont Belo Horizonte, Brazil, and Amsterdam, The Netherlands}
+ 	\item Designed embedded hardware and firmware for STM32 microcontrollers in a wireless energy sensor
  	\item Responsible for the technical decisions and relationship with partners and investors
  	\item Managed the team for the implementation of the cloud structure in Node.js and Python
- 	\item Implementation of embedded software in C++ for low power microcontrollers
+
 \end{rSubsection}
 
-\begin{rSubsection}{Multi-robot Systems Laboratory - Boston University}{05/2014 - 08/2014}{\normalfont Summer Research Intern}{\normalfont Boston,  USA}
+\begin{rSubsection}{Equalizar}{09/2015 - 02/2016}{\normalfont Volunteer teacher}{ \normalfont Belo Horizonte, Brazil}
+	\item Equalizar is a preparatory school for low-income students, helping them on admission exams in universities and technical schools
+	\item Worked as a teacher and tutor in physics and mathematics
+\end{rSubsection}
+
+
+\begin{rSubsection}{Multi-robot Systems Laboratory - Boston University}{05/2014 - 08/2014}{\normalfont Summer Research Intern: 400 hours}{\normalfont Boston,  USA}
 	\item Created algorithms for multi-robot systems applied in area coverage and autonomous exploration
 	\item Developed embedded software for \textit{m3pi} robots in C++
 	\item Published academic results at ICRA 2015 and IJRR 2017
+\newline
+\newline	
 \end{rSubsection}
+ 
 
-
-\begin{rSubsection}{Computation and Robotics Lab - UFMG}{10/2010 - 08/2013}{\normalfont Undergraduate Research Assistant and Electronics Technician Intern}{ \normalfont Belo Horizonte, Brazil}
+\begin{rSubsection}{Computation and Robotics Lab - UFMG}{10/2010 - 08/2013}{\normalfont Undergraduate Research Assistant: 2880 hours}{ \normalfont Belo Horizonte, Brazil}
+ 	\item Developed algorithms for multi-robot coverage and UAV trajectory tracking using C++, ROS and MATLAB in Linux environment 
 	\item Large experience in ROS, working on it since Diamondback version (2011) and becoming reference on ROS for labmates and professors
- 	\item Designed, assembled and customized five Turtlebots for indoor experiments
- 	\item Software development in Linux environment using C++ and MATLAB
- 	\newline
- 	\newline
- 	\newline
- 	\newline
+ 	\item Designed, assembled, and customized five Turtlebots for indoor experiments
+	\item Mapped the whole engineering department with gmapping SLAM using Kinect and LiDAR
 \end{rSubsection}
 \end{rSection}
 
 
-\begin{rSection}{Awards, Grants \& Events}
-	\begin{rSubsection}{ROSCon}{10/31/2019 - 01/11/2019}{Participant}{ \normalfont Macau}
-		\item Participated on the largest ROS community event, gaining insight of the market, best practices and developed networking
-	\end{rSubsection}
-	
-	\begin{rSubsection}{Rockstart Smart Energy Program}{02/2016 - 08/2016}{Participant}{ \normalfont Amsterdam, The Netherlands}
-		\item Selected as the top 10 among more than 500 participating startups.
-		\item Received investment from a Dutch accelerator (Rockstart)
-		\item Participated in pitching competitions and investor meetings
-	\end{rSubsection}
-	
-\begin{rSubsection}{Brazilian Science Mobility Program}{08/2013 - 08/2014}{Awardee}{ \normalfont Austin, USA}
+\begin{rSection}{Awards, Grants \& Conferences}
+\begin{rSubsection}{ROSCon}{10/31/2019 - 01/11/2019}{Participant}{ \normalfont Macau}
+	\item Participated in the largest ROS community event, gaining insight of the market, best practices, and developed networking
+\end{rSubsection}
+
+\begin{rSubsection}{Rockstart Smart Energy Program}{02/2016 - 08/2016}{Selected entrepreneur}{ \normalfont Amsterdam, The Netherlands}
+	\item Selected as the top 10  among more than 500 startups across the world
+	\item Received € 70.000 in investment from a Dutch accelerator (Rockstart)
+	\item Participated in pitching competitions and investor meetings
+\end{rSubsection}
+
+\begin{rSubsection}{Brazil Scientific Mobility Program}{08/2013 - 08/2014}{Awardee}{ \normalfont Austin, USA}
 	\item Selected for the grant, that covered a year of studies at The University of Texas at Austin, including tuitions, housing, meals, travel expenses, and internship
 \end{rSubsection}
 
@@ -104,7 +116,7 @@ High School and Technical Program in Electronics \hfill{Belo Horizonte, Brazil}
 
 \begin{rSection}{Publications}
 	
-\begin{rSubsection}{Automatics Brazilian Congress}{08/2018}{}{}
+\begin{rSubsection}{Brazilian Automatics Congress}{08/2018}{}{}
 	
 \item L. C. Figueiredo, I. L. Carvalho, L. C. A. Pimenta. ``Voronoi Multi-Robot Coverage Control in Non-Convex Environments with Human Interaction in Virtual Reality''
 \item Experimental results at https://www.youtube.com/watch?v=cpniwb6UrF8
@@ -128,18 +140,6 @@ High School and Technical Program in Electronics \hfill{Belo Horizonte, Brazil}
 
 \end{rSection}
 
-\begin{rSection}{Projects}
-	\begin{rSubsection}{Hexagon Reverse Assist}{11/2017 - 03/2019}{}{}
-		\item Driver assistant system to help haul truck operators to park the vehicle safely. I worked implementing ROS nodes in Python, maintaining C++ code and implementing DDS topics using OpenSplice
-		\item More information: https://blog.hexagonmining.com/reverse-guidance-key-step-to-autonomous-haulage
-	\end{rSubsection}
-	
-	
-	\begin{rSubsection}{Smartem Portable Calibrator	}{11/2016 - 01/2019}{}{}
-		\item A portable calibration lab for energy meters. Contributed to the hardware specification and the Android application
-		\item More information here: http://minipaelectric.com.br/produto/m100
-	\end{rSubsection}
-\end{rSection}
 
 
 %----------------------------------------------------
@@ -149,15 +149,17 @@ High School and Technical Program in Electronics \hfill{Belo Horizonte, Brazil}
 \begin{rSection}{Skills}
 
 \begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
-Programming & Proficient: C++, Python, ROS, RTI DDS \\
-            & Average: Android, OpenSplice DDS, C\# \\
-            & Rusty: Node.js, MATLAB \\
+Programming & Proficient: C\texttt{++}, Python, ROS, RTI DDS, Git, Ubuntu \\
+            & Average: Android, OpenSplice DDS, C\texttt{\#}, CMake, Docker, OpenCV \\
+            & Beginner: Node.js, MATLAB, SQL, Jenkins, Yocto, PCL \\
 Electronics & Arduino, Eagle \\
-Office & Word, PowerPoint, Excel, Visio \\
+Office & Word, PowerPoint, Excel \\
 Managerial & Scrum, Agile, Lean Startup \\
-Other & AutoCAD, 3ds Max, Ubuntu, LaTeX, UML\\
+Other & LaTeX, UML \\
 English & Fluent \\
-Portuguese & Native
+Portuguese & Native \\
+Hobbies & Photography, electronics projects, 3D printing, mountain biking
+
 \end{tabular}
 
 \end{rSection}
